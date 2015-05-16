@@ -1,0 +1,6 @@
+if first time :
+	get id,passwd
+	echo -e " $CYBER_ROAM_IP $CR_PASSWD y " | ./crclient -u $CR_USER -i lo > /dev/null
+else:
+	./crclient -u $CR_USER -i lo > /dev/null
+	
