@@ -1,0 +1,7 @@
+. create config file based on id
+. get id and (cyberroam)passwrd
+. provide getid and getpsswd UI to users
+. provide this data to actual cyberroam script
+. autorun whenever conn to network
+. autorun whenever conn to BITS network
+. autorun after using network for sometime, since there is a timeout ( probably use cron )
