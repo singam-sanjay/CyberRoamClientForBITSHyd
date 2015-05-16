@@ -5,3 +5,5 @@
 . autorun whenever conn to network
 . autorun whenever conn to BITS network
 . autorun after using network for sometime, since there is a timeout ( probably use cron )
+. custom commad name
+. work without using downloaded files on installation, like an "acutal" "INSTALLED" application

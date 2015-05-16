@@ -3,4 +3,5 @@ if first time :
 	echo -e " $CYBER_ROAM_IP $CR_PASSWD y " | ./crclient -u $CR_USER -i lo > /dev/null
 else:
 	./crclient -u $CR_USER -i lo > /dev/null
-	
+
+just found out, /dev/null only takes in output from stdout, leaves stderr. hopefully crclient prints its errors to stderr
