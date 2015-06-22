@@ -22,5 +22,5 @@ if [ ! -e ~/CyberClient.conf ] ; then
 fi
 
 
-./crclient -u "'cat CR_ID.txt'" -i lo > /dev/null
+./crclient -u `cat CR_ID.txt` -i lo > /dev/null
 return $?
