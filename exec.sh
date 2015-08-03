@@ -18,9 +18,9 @@ if [ ! -e ~/CyberClient.conf ] ; then
 	unset CR_IP
 	unset CR_PSSWD
 	unset CR_ID
-	return $RET;
+	exit $RET;
 fi
 
 
 ./crclient -u `cat CR_ID.txt` -i lo > /dev/null
-return $?
+exit $?
